@@ -1,0 +1,22 @@
+{
+  "name": "svq-bot",
+  "version": "1.0.0",
+  "description": "A bot for SVQ Scans",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ladsfdsfs/svq-bot.git"
+  },
+  "author": "ladsfdsfs",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/ladsfdsfs/svq-bot/issues"
+  },
+  "homepage": "https://github.com/ladsfdsfs/svq-bot#readme",
+  "dependencies": {
+    "discord.js": "^12.5.3"
+  }
+}
