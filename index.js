@@ -4,7 +4,7 @@ let count = 0;
 bot.on('message', (message)=>{
     if(message.author.bot) return;
 
-    if(/(when.+?(ch(\d|$| )|chapter)|(ch(\d|$| )|chapter).*?when)/gi.test(message.content)){
+    if(/(when.+?(ch(\d|$| )|chapter|chap)|(ch(\d|$| )|chapter|chap).*?when)/gi.test(message.content)){
         count=count+1;
         message.reply(
             `I detected that you may have asked about when a new chapter will release. If you did ask, please read <#802339257540149248>.
